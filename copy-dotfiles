@@ -1,0 +1,4 @@
+for sourceName in dot-*; do
+  targetName=".${sourceName#dot-}";
+  rsync -avh --no-perms $sourceName ~/$targetName
+done
