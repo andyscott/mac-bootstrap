@@ -28,3 +28,7 @@ brew cask install --appdir='/Applications' the-unarchiver
 
 # and more
 sudo gem install cocoapods
+
+# java
+brew tap caskroom/versions
+brew cask install java7
