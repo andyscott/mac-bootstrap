@@ -20,7 +20,6 @@ avn setup
 
 
 # Other
-brew cask install --appdir='/Applications' atom
 brew cask install --appdir='/Applications' google-chrome
 brew cask install --appdir='/Applications' spotify
 brew cask install --appdir='/Applications' 1password
@@ -29,9 +28,15 @@ brew cask install --appdir='/Applications' the-unarchiver
 # and more
 sudo gem install cocoapods
 
-# java
+# Java / Scala
 brew tap caskroom/versions
 brew cask install java7
+brewk install sbt
+
+# Atom + Scala support
+brew cask install --appdir='/Applications' atom
+apm install ensime
+apm install language-scala
 
 
 # git setup
